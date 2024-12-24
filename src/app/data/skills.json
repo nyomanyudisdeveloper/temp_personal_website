@@ -1,0 +1,43 @@
+[
+    {
+        "title":"Concept or Methodology",
+        "listSkill":["Object Oriented Programming","Agile Methodology","CI/CD",
+        "Automation Testing","Version Control System","Web Scraping"],
+        "color":"#EBEBFF"
+    },
+    {
+        "title":"Programming Language",
+        "listSkill":["Python","SQL","Java","Javascript","HTML","CSS","PHP"],
+        "color":"#FFF3EB"
+    }, 
+    {
+        "title":"Framework Full Stack",
+        "listSkill":["Django","Nuxt","Next","Laravel"],
+        "color":"#FFF3EB"
+    },
+    {
+        "title":"Framework Front End Website",
+        "listSkill":["Vue","React"],
+        "color":"#FFF3EB"
+    },
+    {
+        "title":"Framework Back End API",
+        "listSkill":["Node JS","Fast API"],
+        "color":"#FFF3EB"
+    }, 
+    {
+        "title":"Database",
+        "listSkill":["Mongo DB","Postgre SQL","SQL Server","SQLLite"],
+        "color":"#FFF3EB"
+    }, 
+    {
+        "title":"Cloud Service",
+        "listSkill":["Firebase Storage"],
+        "color":"#FFF3EB"
+    }, 
+    {
+        "title":"Deployment",
+        "listSkill":["Vercel","Superbase"],
+        "color":"#FFF3EB"
+    }
+]

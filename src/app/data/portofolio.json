@@ -1,0 +1,20 @@
+[
+    {
+        "icon":"test",
+        "title":"API Transaction Service",
+        "description":"Develop API for handling requests for example transactions from buy service or top up balance.  In this API I used some methodology like router, authentication, middleware, documentation, file upload, unit test, send email, and scheduler. This API only has 1 role user, it is membership. Technology / Tools: Javascript, NodeJS, PostgreSQL, Swagger, JWT, Vercel, Superbase, Firebase Storage, Jest, Joi, supertest, nodemailer, node-schedule",
+        "linkProject":"https://contract-sims.vercel.app/api-docs/"
+    },
+    {
+        "icon":"test",
+        "title":"Perpustakaan Online",
+        "description":"Develop a website for borrowing a book. It has features for register account, Login, Add new transaction borrow book, see all transaction borrowing book, and update status transaction. In this website, i used some method like authentication, migration data, django lifecycle, reusable template, and pagination. Technology / Tools: Python, Django, SQLLite",
+        "linkProject":"https://github.com/nyomanyudisdeveloper/perpustakaanOnline"
+    },
+    {
+        "icon":"test",
+        "title":"Perpustakaan Online",
+        "description":"Develop a website for borrowing a book. It has features for register account, Login, Add new transaction borrow book, see all transaction borrowing book, and update status transaction. In this website, i used some method like authentication, migration data, django lifecycle, reusable template, and pagination. Technology / Tools: Python, Django, SQLLite",
+        "linkProject":"https://github.com/nyomanyudisdeveloper/perpustakaanOnline"
+    }
+]

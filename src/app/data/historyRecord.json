@@ -1,0 +1,37 @@
+[
+    {
+        "year":"2017",
+        "place":"Bina Nusantara University",
+        "title":"Student",
+        "rangeYear": "2013-2017",
+        "description": "Bachelor Degree of Computer Science (GPA 3.5)"
+    },
+    {
+        "year":"2018",
+        "place":"IT Division Bina Nusantara University",
+        "title":"Programmer",
+        "rangeYear": "2016-2018",
+        "description": "Maintain and enhance website Binusmaya. Develop a website and create a Rest API at binumsaya.ac.id which is used for lectures, students, and parents. Here I focus more on handling business processes in the exam.Technology used for this are NodeJS, SQL Server, PHP, CodeIgniter, HTML, CSS, Javascript."
+    },
+    {
+        "year":"2021",
+        "place":"Ciptadana Sekuritas",
+        "title":"Programmer",
+        "rangeYear":"2018-2021",
+        "description": "Have experience create mobile app trading using native with java (Android Studio) and objective-c (Xcode). I have experience using React Native to build mobile app for HR. And also maintain existing modular application using Java."
+    },
+    {
+        "year":"2023",
+        "place":"Devstack",
+        "title":"Programmer Analyst",
+        "rangeYear":"2021-2023",
+        "description": "Have experience build mobile application for mobile banking and chatting using React Native. And also handle back end using Node JS and MongoDB as database"
+    },
+    {
+        "year":"Current",
+        "place":"Timedoor Academy Teens",
+        "title":"Part Time Teacher Code",
+        "rangeYear":"2022 until now",
+        "description": "Teach class online with subject Scratch,Phaser,Website(HTML,CSS, and JS),React Native, and Python"
+    }
+]

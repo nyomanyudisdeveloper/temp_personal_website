@@ -7,25 +7,27 @@ export default function Header () {
 
     return (
         <>
-        <header className="flex flex-row  px-5 py-2 justify-between lg:max-w-5xl lg:mx-auto">
-            <span className="bg-black text-white px-5 py-2 font-bold ">Yudis Aditya</span>
-            {!isModalShow ? <Image
-                className="md:hidden"
-                src="/menu.svg"
-                alt="Menu Icon"
-                width={20}
-                height={20}
-                onClick={() => setIsModalShow(true)}
-            />
-            : null }
-            <nav className="hidden md:flex py-2">
-                <ul>
-                    <li className="float-start font-semibold text-xl underline underline-offset-8 mr-5">About Me</li>
-                    <li className="float-start font-semibold text-xl underline underline-offset-8 mr-5">Skill & Tools</li>
-                    <li className="float-start font-semibold text-xl underline underline-offset-8 mr-5">Portofolio</li>
-                    <li className="float-start font-semibold text-xl underline underline-offset-8 mr-5">Contact</li>
-                </ul>
-            </nav>
+        <header className="fixed top-0 bg-white w-full border-b-2">
+            <div className="flex flex-row  px-5 py-2 justify-between lg:max-w-5xl lg:mx-auto">
+                <span className="bg-black text-white px-5 py-2 font-bold ">Yudis Aditya</span>
+                {!isModalShow ? <Image
+                    className="md:hidden"
+                    src="/menu.svg"
+                    alt="Menu Icon"
+                    width={20}
+                    height={20}
+                    onClick={() => setIsModalShow(true)}
+                />
+                : null }
+                <nav className="hidden md:flex py-2">
+                    <ul>
+                        <li className="float-start font-semibold text-xl underline underline-offset-8 mr-5">About Me</li>
+                        <li className="float-start font-semibold text-xl underline underline-offset-8 mr-5">Skill & Tools</li>
+                        <li className="float-start font-semibold text-xl underline underline-offset-8 mr-5">Portofolio</li>
+                        <li className="float-start font-semibold text-xl underline underline-offset-8 ">Contact</li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         {isModalShow ? (
                 <div className="w-full h-full bg-white bg-opacity-80 fixed inset-0 ">
