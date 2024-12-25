@@ -7,8 +7,7 @@ export function Contact () {
             <h1 className="dark:text-white font-bold text-3xl mt-2">Get In Touch</h1>
             <p className="dark:text-white text-center mb-5 text-lg">If you have any questions, feel free to contact me via email.</p>
             <a 
-                href="/pdfs/cv.pdf"
-                download
+                href="mailto:nyomanyudisdeveloper@gmail.com"
                 className=" bg-blue-600 flex justify-center items-center py-3 px-8 rounded-md">
                 <span className="text-white font-bold">Email Me!</span>
             </a>
