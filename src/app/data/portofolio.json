@@ -13,8 +13,8 @@
     },
     {
         "icon":"test",
-        "title":"Perpustakaan Online",
-        "description":"Develop a website for borrowing a book. It has features for register account, Login, Add new transaction borrow book, see all transaction borrowing book, and update status transaction. In this website, i used some method like authentication, migration data, django lifecycle, reusable template, and pagination. Technology / Tools: Python, Django, SQLLite",
-        "linkProject":"https://github.com/nyomanyudisdeveloper/perpustakaanOnline"
+        "title":"WisataApp",
+        "description":"Develop a front end website for booking hotel with API from Wisata App . It has features booking hotel based on search place name, date check in and check out, total room, and total guest. After search user can see information about that place, gallery images, and room availability. In this website i used some methodologies like responsive website, global and local state management, template, and routing. Technology / Tools: Javascript, Tailwind, Nuxt, HTML, CSS, FontAwesome, NuxtUI",
+        "linkProject":"https://github.com/nyomanyudisdeveloper/wisataApp"
     }
 ]
