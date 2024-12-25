@@ -2,7 +2,7 @@ import skillsData from '../app/data/skills.json'
 
 const SkillAndTools = () => {
     return(
-        <div className='lg:max-w-5xl lg:mx-auto'>
+        <section id="skill" className='lg:max-w-5xl lg:mx-auto'>
             <h1 className="uppercase text-blue-500">Skill & Tools</h1>
             <h1 className="font-bold text-3xl mt-2">My Toolbox & Skills</h1>
             {skillsData.map((item,index) => {
@@ -23,7 +23,7 @@ const SkillAndTools = () => {
                     </div>
                 )
             })}
-        </div>
+        </section>
     )
 }
 

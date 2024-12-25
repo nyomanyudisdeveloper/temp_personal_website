@@ -2,7 +2,7 @@ import portofolioData from '../app/data/portofolio.json'
 
 export function Portofolio () {
     return (
-        <div className="lg:max-w-5xl lg:mx-auto">
+        <section id="portofolio" className="lg:max-w-5xl lg:mx-auto">
             <h1 className="uppercase text-blue-500">Portofolio</h1>
             <h1 className="font-bold text-3xl mt-2">This is my project so far</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
@@ -23,6 +23,6 @@ export function Portofolio () {
                     )
                 })}
             </div>
-        </div>
+        </section>
     )
 }

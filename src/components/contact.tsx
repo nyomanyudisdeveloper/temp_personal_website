@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Contact () {
     return (
-        <div className="max-w-md mx-auto flex flex-col items-center mt-10">
+        <section id="contact" className="max-w-md mx-auto flex flex-col items-center mt-10">
             <h1 className="uppercase text-blue-500">Contact</h1>
             <h1 className="font-bold text-3xl mt-2">Get In Touch</h1>
             <p className="text-center mb-5 text-lg">If you have any questions, feel free to contact me via email.</p>
@@ -32,6 +32,6 @@ export function Contact () {
                     height={40}
                 />
             </div>
-        </div>
+        </section>
     )
 }
