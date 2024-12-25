@@ -10,15 +10,15 @@ import SkillAndTools from "@/components/skillAndTools";
 
 export default function Home() {
     return (
-        <>
+        <div className="dark:bg-slate-900">
             <Header />
-            <div className="px-5 mt-20">
+            <div className="px-5 mt-[73px] ">
                 <About />
                 <SkillAndTools />
                 <Portofolio />
                 <Contact />
             </div>
-        </>
+        </div>
     )
     
 }
