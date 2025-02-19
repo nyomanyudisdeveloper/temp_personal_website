@@ -54,7 +54,7 @@ export default function Header () {
         <>
         <header className="fixed top-0 bg-white w-full border-b-[1px] border-black dark:bg-slate-900">
             <div className="flex flex-row  px-5 py-2 justify-between lg:max-w-5xl lg:mx-auto">
-                <span className="bg-slate-600 dark:bg-white text-white dark:text-slate-900 font-bold flex justify-center items-center px-5 text-2xl min-h-14 ">Yudis Aditya</span>
+                <h1 className="bg-slate-600 dark:bg-white text-white dark:text-slate-900 font-bold flex justify-center items-center px-5 text-2xl min-h-14 ">Yudis Aditya</h1>
                 {!isModalShow ?
                     <div onClick={() => setIsModalShow(true)} className="flex justify-center items-center">
                         <MenuIcon  className="md:hidden" />

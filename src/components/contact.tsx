@@ -3,8 +3,8 @@ import { GithubIcon, InstagramIcon, LinkedinIcon } from "./icons";
 export function Contact () {
     return (
         <section id="contact" className="max-w-md mx-auto flex flex-col items-center mt-10">
-            <h1 className="uppercase text-blue-500">Contact</h1>
-            <h1 className="dark:text-white font-bold text-3xl mt-2">Get In Touch</h1>
+            <h2 className="uppercase text-blue-500">Contact</h2>
+            <h2 className="dark:text-white font-bold text-3xl mt-2">Get In Touch</h2>
             <p className="dark:text-white text-center mb-5 text-lg">If you have any questions, feel free to contact me via email.</p>
             <a 
                 href="mailto:nyomanyudisdeveloper@gmail.com"

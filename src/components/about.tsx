@@ -20,9 +20,9 @@ export default function About () {
         <section className="pt-5"  id="about">
             {/* Container for mobile */}
             <div className="py-2 md:hidden my-10">
-                <h1 className="uppercase text-blue-500">Hello, my name is</h1>
-                <h1 className="dark:text-white font-bold text-3xl mt-2">Yudis Aditya</h1>
-                <h1 className="dark:text-white font-bold text-3xl">I am  <span className="text-blue-500">Software Developer</span></h1>
+                <h2 className="uppercase text-blue-500">Hello, my name is</h2>
+                <h3 className="dark:text-white font-bold text-3xl mt-2">Yudis Aditya</h3>
+                <h4 className="dark:text-white font-bold text-3xl">I am  <span className="text-blue-500">Software Developer</span></h4>
                 <p className="dark:text-white mt-2">
                     I was born in Bekasi, 25 June 1995.  I hold a Master’s Degree in Computer Science 
                     from Bina Nusantara University. I have over five years of experience as a 
@@ -42,9 +42,9 @@ export default function About () {
             {/* Container for md to Large */}
             <div className="py-2 md:flex hidden flex-row justify-between lg:max-w-5xl lg:mx-auto my-10">
                 <div>
-                    <h1 className="uppercase text-blue-500">Hello, my name is</h1>
-                    <h1 className="dark:text-white font-bold text-3xl mt-2">Yudis Aditya</h1>
-                    <h1 className="dark:text-white font-bold text-3xl">I am  <span className="text-blue-500">Software Developer</span></h1>
+                    <h2 className="uppercase text-blue-500">Hello, my name is</h2>
+                    <h3 className="dark:text-white font-bold text-3xl mt-2">Yudis Aditya</h3>
+                    <h4 className="dark:text-white font-bold text-3xl">I am  <span className="text-blue-500">Software Developer</span></h4>
                     <p className="dark:text-white mt-2">
                         I was born in Bekasi, 25 June 1995.  I hold a Master’s Degree in Computer Science 
                         from Bina Nusantara University. I have over five years of experience as a 
@@ -73,7 +73,7 @@ export default function About () {
                 </div>
             </div>
             <div className="py-2 md:hidden my-10">
-                <h1 className="uppercase text-blue-500">About Me</h1>
+                <h2 className="uppercase text-blue-500">About Me</h2>
                 <h3 className="dark:text-white font-bold text-2xl mt-2">My Journey</h3>
                 <div className="flex flex-row items-center my-2">
                     <div className="cursor-pointer" onClick={() => onClickArrowYear(-1)}>
@@ -101,7 +101,7 @@ export default function About () {
                     />
                 </div>
                 <div className="flex-[0.6]">
-                    <h1 className="uppercase text-blue-500">About Me</h1>
+                    <h2 className="uppercase text-blue-500">About Me</h2>
                     <h3 className="dark:text-white font-bold text-2xl mt-2">My Journey</h3>
                     <div className="flex flex-row items-center my-2">
                         <div className="cursor-pointer" onClick={() => onClickArrowYear(-1)}>
