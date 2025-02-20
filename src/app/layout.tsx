@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yudis Aditya - Pengembang Perangkat Lunak Berpengalaman dan Pengajar Koding Online",
-  description: "Temui Yudis Aditya, seorang pengembang perangkat lunak dengan lebih dari lima tahun pengalaman dan dua tahun sebagai pengajar koding online paruh waktu. Lihat portofolio, keterampilan, dan proyek terbaru saya di situs ini.",
+  title: "Yudis Aditya - Pengembang & Pengajar Koding",
+  description: "Portofolio Yudis Aditya, pengembang perangkat lunak dan pengajar koding online.",
 };
 
 export default function RootLayout({
